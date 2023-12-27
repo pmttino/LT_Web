@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+<br />
+<br />
+@if (User.Identity.IsAuthenticated)
+{
+    <h1>Welcome to the profile page or you can <a href="/Account/Logout">Logout</a></h1>
+}
+else
+{
+    <h1>Đến trang <a href="/Account/Login">Đăng nhập</a> hoặc <a href="/Home">Trang chủ</a></h1>
+}
+

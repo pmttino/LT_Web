@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\tinoshop_demo2.props" />
+</Project>
